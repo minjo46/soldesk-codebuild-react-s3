@@ -48,6 +48,8 @@ artifacts:
   files:
     - "**/*"
   base-directory: dist
+  discard-paths: no
+  packaging: zip
 
 cache:
   paths:
